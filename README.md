@@ -1,2 +1,2 @@
 # Curriculum
-使用Kotlin编写基于MVM构架开发的课程表app
+使用Java编写基于MVM构架开发的课程表app
