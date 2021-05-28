@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bkcolor"
+    tools:context=".LoginActivity">
+    <TextView
+        android:id="@+id/textbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/loginPage"
+        android:layout_marginBottom="20dp"
+        android:layout_centerInParent="true"
+        android:text="@string/view_welcome"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white" />
+
+    <RelativeLayout
+        android:id="@+id/loginPage"
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:layout_centerInParent="true"
+        android:elevation="20dp"
+        android:background="#ffffff"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_above="@+id/password"
+            android:layout_marginBottom="10dp"
+            android:autofillHints="username"
+            android:ems="10"
+            android:hint="@string/mail_hint"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/login"
+            android:layout_centerInParent="true"
+            android:ems="10"
+            android:hint="@string/pass_hint"
+            android:inputType="numberPassword"/>
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/login" />
+
+        <CheckBox
+            android:id="@+id/chk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/login"
+            android:layout_centerInParent="true"
+            android:text="@string/remember_me" />
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="70dp"
+            android:layout_below="@+id/login"
+            android:layout_centerInParent="true"
+            android:text="@string/sign_up" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

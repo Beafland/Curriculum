@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/add_courses"
+        android:icon="@drawable/add"
+        android:title="Add course"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/menu_delet"
+        android:icon="@drawable/ic_delete_forever_black_24dp"
+        android:title="Delet"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/login"
+        android:icon="@drawable/ic_action_name"
+        android:title="Login"
+        app:showAsAction="ifRoom"
+        />
+</menu>

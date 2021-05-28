@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "383126924872",
+    "firebase_url": "https://monitor-system-9e160.firebaseio.com",
+    "project_id": "monitor-system-9e160",
+    "storage_bucket": "monitor-system-9e160.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:383126924872:android:af4ff1577933ed95d9727d",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "383126924872-nbsjre7s1n6u0cug4a5t3mtm016lqp3j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJe65QwHRx_SqaBi6qfNmN_9bs5gBNVwc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "383126924872-nbsjre7s1n6u0cug4a5t3mtm016lqp3j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
